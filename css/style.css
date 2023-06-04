@@ -814,6 +814,7 @@ ul {
     /* Navigation */
     #navigation .navbar-nav .download-resume {
         margin-bottom: 10px;
+        margin-top: 10px;
     }
 }
 
