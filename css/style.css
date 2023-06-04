@@ -164,7 +164,7 @@ ul {
 }
 
 .title-left h2 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
 }
 
@@ -770,6 +770,16 @@ ul {
 
 /*Responsive*/
 @media (max-width: 1000px) {
+    /* General */
+    .title-left h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .title-left h3 {
+        font-size: 20px;
+    }
+
     /* Home */
     #home .intro-caption  .header div {
         font-size: 2rem;
@@ -792,13 +802,19 @@ ul {
     #home .intro-image {
         width: 320px;
     }
+
+    /* Qualifications */
+    #qualifications .timeline > li h4 {
+        font-size: 20px;
+    }
 }
 
 
 @media (max-width: 768px) {
     /* General */
+
     .title-left h2 {
-        font-size: 35px;
+        font-size: 30px;
         margin-bottom: 25px;
     }
 
@@ -932,6 +948,13 @@ ul {
         margin-top: 0;
     }
 
+    #contact .h2 {
+        font-size: 30px;
+    }
+
+    #contact h2 {
+        font-size: 30px;
+    }
 }
 
 
@@ -999,9 +1022,12 @@ ul {
 @media (max-width: 630px) {
     /* General */
     .title-left h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
+    .title-left h3 {
+        font-size: 18px;
+    }
     /* Home */
     #home .intro-content .row {
         text-align: center;
@@ -1033,15 +1059,29 @@ ul {
 
     /* Contact */
     #contact .content-left h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     #contact .section-title-left h3 {
         text-align: center;
     }
+
+    #contact .content-left h2 {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 430px) { 
+    /* General */
+    .title-left h2 {
+        font-size: 25px;
+    }
+
+    /* Qualifications */
+    #qualifications .timeline > li h4 {
+        font-size: 18px;
+    }
+
     /* Contact */
     #contact .message-sec {
         display: block;
@@ -1049,6 +1089,10 @@ ul {
 
     #contact.success-msg {
         padding-top: 20px;
+    }
+
+    #contact .content-left h2 {
+        font-size: 25px;
     }
 }
 
