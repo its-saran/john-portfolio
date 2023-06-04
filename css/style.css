@@ -470,6 +470,7 @@ ul {
 }
 
 #portfolio .portfolio-filter-menu ul li {
+    padding-bottom: 10px;
     display: inline-block;
     margin: 0 15px;
     cursor: pointer;
@@ -809,6 +810,13 @@ ul {
     }
 }
 
+@media (max-width: 991px) {
+    /* Navigation */
+    #navigation .navbar-nav .download-resume {
+        margin-bottom: 10px;
+    }
+}
+
 
 @media (max-width: 768px) {
     /* General */
@@ -913,7 +921,7 @@ ul {
 
     /* Portfolio */
     #portfolio .box-content {
-        padding: 10px;
+        padding: 40px 10px;
     }
 
     #portfolio .content-image .portfolio-caption {
@@ -1074,10 +1082,10 @@ ul {
         font-size: 25px;
     }
 
-    /* Qualifications */
-    /* #about .content-left {
+    /* About */
+    #about .content-left {
         padding: 40px 20px;
-    } */
+    }
 
     /* Qualifications */
     #qualifications .timeline > li h4 {
