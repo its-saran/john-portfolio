@@ -281,7 +281,12 @@ ul {
 
 
 /* Home */
-#home .intro-content .intro-caption span {
+#home .intro-content.box-content {
+    position: relative;
+    padding: 10px 40px 0px 40px;
+}
+
+#home .intro-content .intro-caption .dot {
     font-size: 26px;
     font-weight: 300;
     display: inline-block;
@@ -305,32 +310,16 @@ ul {
     -webkit-text-fill-color: transparent;
 }
 
-#home .intro-caption  .header div {
+#home .intro-caption .header div {
     font-size: 3rem;
     line-height: 50px;
     padding: 12px 0px;
-}
-
-#home .intro-caption  .description {
-    font-size: 1.5rem;
-    line-height: 35px;
-    padding: 25px 0px 0px 0px;
-}
-
-#home .intro-caption  .description > div {
-    font-size: 1.5rem;
-    padding: 5px 0px;
 }
 
 #home .intro-content .intro-caption  .header span {
     color: var(--title-color);
     font-size: 3rem;
     margin: 0px;
-}
-
-#home .intro-content.box-content {
-    position: relative;
-    padding: 10px 40px 0px 40px;
 }
 
 #home .image-container {
@@ -357,6 +346,38 @@ ul {
     margin: 0;
     position: relative;
     bottom: 55px;
+}
+
+#home .intro-caption .description {
+    font-size: 1.5rem;
+    line-height: 35px;
+    padding: 25px 0px 0px 0px;
+}
+
+#home .intro-caption .description > div {
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}
+
+#home .intro-caption .description {
+    display: flex;
+    flex-direction: column;
+}
+
+#home .intro-caption .description > div.first {
+    display: flex;
+}
+
+#home .intro-caption .description > div.first .district {
+    padding-left: 5px;
+}
+
+#home .intro-caption .description > div.first{
+    padding-bottom: 0px;
+}
+
+#home .intro-caption .description > div.second{
+    padding: 0px;
 }
 
 
@@ -1037,6 +1058,8 @@ ul {
     .title-left h3 {
         font-size: 18px;
     }
+
+    
     /* Home */
     #home .intro-content .row {
         text-align: center;
@@ -1083,6 +1106,11 @@ ul {
         font-size: 25px;
     }
 
+    /* Home */
+    #home .intro-caption .description > div.first {
+        flex-direction: column;
+    }
+
     /* About */
     #about .content-left {
         padding: 40px 22px;
@@ -1101,6 +1129,7 @@ ul {
     #contact.success-msg {
         padding-top: 20px;
     }
+
 }
 
 

@@ -132,5 +132,5 @@ $(function() {
             $(submitButton).removeClass('loading');
           }
         });
-      });
+    });
 });
