@@ -37,7 +37,7 @@ footer
 
     --job-title-gradient: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
 
-    --light-border: 1px solid rgba(255,255,255, .1);
+    --light-border: 1px solid rgba(255,255,255, .3);
     --medium-border: 1px solid #525252;
     --transparent-border: 1px solid rgba(0, 0, 0, 0.5);
 
@@ -1059,7 +1059,7 @@ ul {
         font-size: 18px;
     }
 
-    
+
     /* Home */
     #home .intro-content .row {
         text-align: center;
