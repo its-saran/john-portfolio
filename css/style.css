@@ -1049,9 +1049,6 @@ ul {
     
 
     /* About */
-    #about .content-left {
-        text-align: center;
-    }
     #about .content-left .section-title-left {
         text-align: center;
     }
@@ -1078,6 +1075,11 @@ ul {
     }
 
     /* Qualifications */
+    /* #about .content-left {
+        padding: 40px 20px;
+    } */
+
+    /* Qualifications */
     #qualifications .timeline > li h4 {
         font-size: 18px;
     }
@@ -1090,7 +1092,6 @@ ul {
     #contact.success-msg {
         padding-top: 20px;
     }
-
 }
 
 
