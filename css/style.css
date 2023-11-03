@@ -21,21 +21,21 @@ footer
     
     --primary-text-color: #d3d3d3;
     --secondary-text-color: #fff;
-    --title-color: #ff8c05;
+    --title-color: #13eb36;
 
-    --primary-gradient: linear-gradient(135deg, #ff8c05 0%, #d61a5e 100%);
-    --primary-gradient-moz: -moz-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 100%);
-    --primary-gradient-webkit: -webkit-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 100%);
+    --primary-gradient: linear-gradient(135deg, #05eeff 0%, #04b821 100%);
+    --primary-gradient-moz: -moz-linear-gradient(-45deg, #05eeff 0%, #04b821 100%);
+    --primary-gradient-webkit: -webkit-linear-gradient(-45deg, #05eeff 0%, #04b821 100%);
 
-    --secondary-gradient: linear-gradient(135deg, #ff8c05 0%, #d61a5e 65%);
-    --secondary-gradient-moz: -moz-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 65%);
-    --secondary-gradient-webkit: -webkit-linear-gradient(-45deg, #ff8c05 0%, #d61a5e 65%);
+    --secondary-gradient: linear-gradient(135deg, #05eeff 0%, #04b821 60%);
+    --secondary-gradient-moz: -moz-linear-gradient(-45deg, #05eeff 0%, #04b821 60%);
+    --secondary-gradient-webkit: -webkit-linear-gradient(-45deg, #05eeff 0%, #04b821 60%);
 
     --locked-gradient: linear-gradient(to right, #605C3C, #3C3B3F); 
     --locked-gradient-moz: -moz-linear-gradient(to right, #605C3C, #3C3B3F);
     --locked-gradient-webkit: -webkit-linear-gradient(to right, #605C3C, #3C3B3F); 
 
-    --job-title-gradient: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
+    --job-title-gradient: -webkit-linear-gradient(right, #04b821, #05eeff);
 
     --light-border: 1px solid rgba(255,255,255, .3);
     --medium-border: 1px solid #525252;
@@ -300,8 +300,12 @@ ul {
 }
 
 #home .intro-content .intro-image img {
+    margin-top: 40px;
     width: 100%;
-}
+    border-radius: 100%;
+} 
+
+
 
 #home .job-title {
     background: var(--job-title-gradient);

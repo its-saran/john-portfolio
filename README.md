@@ -1,21 +1,25 @@
-# portfolio
+# John- Bootstrap Portfolio Website Template
 
-Saran - Data Analyst Portfolio
+![John Portfolio Website Template](demo.jpg)
 
--   Welcome to my data analyst portfolio website! This website showcases my skills, experience, and projects as a data analyst.
+John is a simple and elegant portfolio website template built with Bootstrap and jQuery. It is designed to help you showcase your work and create a stunning online portfolio. Whether you're a developer, designer, photographer, or any other creative professional, John can be customized to suit your needs.
 
-About Me
+## Features
 
--   I am a passionate data analyst with a strong background in analyzing and interpreting complex data sets. I have experience working with various data analysis tools and techniques to derive meaningful insights and make data-driven decisions. My goal is to leverage data to drive business growth and solve real-world problems.
+- Clean and modern design.
+- Responsive layout for mobile and desktop screens.
+- Smooth scrolling navigation.
+- Filterable portfolio section.
+- Contact form with validation.
+- Easy-to-customize code.
 
-Skills
+## Demo
 
--   Data analysis
--   Data visualization
--   Statistical analysis
--   SQL
--   Python
--   Excel
--   Machine learning
--   Data cleaning and preprocessing
--   Dashboard creation
+You can see a live demo of the John Portfolio Website Template [here](https://your-demo-link.com).
+
+## Getting Started
+
+1. Clone this repository to your local machine.
+
+   ```bash
+   git clone https://github.com/its-saran/bootstrap-portfolio.git
