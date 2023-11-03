@@ -2,6 +2,8 @@
 
 John is a simple and elegant portfolio website template built with Bootstrap and jQuery. It is designed to help you showcase your work and create a stunning online portfolio. Whether you're a developer, designer, photographer, or any other creative professional, John can be customized to suit your needs.
 
+Note: This project is no longer maintained. A newer version of this project has been created using Tailwind CSS and JavaScript. You can find the newer version [here](https://github.com/its-saran/tailwind-portfolio).</p>
+
 ## Features
 
 - Clean and modern design.
@@ -22,4 +24,7 @@ You can see a live demo of the John Portfolio Website Template [here](https://it
    ```bash
    git clone https://github.com/its-saran/john-portfolio.git
    
-2. customization should be done by editing the `index.html` file.
+2. Customize the website by editing the .`index.html` file to tailor it to your specific needs.
+
+
+
