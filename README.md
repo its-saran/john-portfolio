@@ -5,11 +5,7 @@ John is a simple and elegant portfolio website template built with Bootstrap and
 ### Note: This project is no longer maintained. A newer version of this project has been created using Tailwind CSS and JavaScript. You can find the newer version [here](https://github.com/its-saran/tailwind-portfolio).
 
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+! This project is no longer maintained. A newer version of this project has been created using Tailwind CSS and JavaScript. You can find the newer version [here](https://github.com/its-saran/tailwind-portfolio)
 ```
 
 ## Features
